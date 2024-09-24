@@ -1,0 +1,21 @@
+{
+  "name": "initial-project",
+  "version": "1.0.0",
+  "description": "learn npm initioal commands",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/92sagarchougule/Node.js.git"
+  },
+  "keywords": [
+    "geospatial",
+    "projects",
+    "OpenLayers",
+    "React"
+  ],
+  "author": "#deepocean",
+  "license": "ISC"
+}
