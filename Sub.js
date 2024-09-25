@@ -2,8 +2,9 @@ let sub = (a,b)=>{
 
     let d = a - b;
 
-    console.log('Substractions is : ' + d);
+    return d;
     
 }
 
-module.exports = sub;
+module.exports.sub = sub;
+

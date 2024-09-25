@@ -1,15 +1,24 @@
-let sub = require('./Sub');
+let {sub} = require('./Sub');
 
 
-sub(10,5);
+
+let valusub = sub(10,5);
+
+
+console.log('The substractions is : ' + valusub);
 
 
 
 function add(a,b,c){
 
-    console.log(a + b + c);
+    return a + b + c;
     
 }
 
-module.exports = add;
+let data = {'name':'sagar','surname':'chougule','age':32,'subject':['Geoinformatics','Computer Science','Management']}
+
+
+module.exports.add = add;
+module.exports.valusub = valusub;
+module.exports.data = data;
 
